@@ -73,4 +73,15 @@ class Solution:
 
 It works!
 
-Check
+```
+
+Complexity Analysis
+
+Time complexity : O(L)
+The algorithm makes one traversal of the list of L nodes.
+
+
+Space complexity : O(1).
+We only used constant extra space.
+
+```
