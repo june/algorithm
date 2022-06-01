@@ -1,4 +1,4 @@
-#19. Remove Nth Node From End of List
+# 19. Remove Nth Node From End of List
 
 To do this, I am going to use two pointers(first, second) as it stated on the title.
 

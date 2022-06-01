@@ -1,4 +1,4 @@
-#Given a string s, find the length of the longest substring without repeating characters.
+# Given a string s, find the length of the longest substring without repeating characters.
 
 So I am going to use sliding window method. It is basically move the range of answer until the end of the list.
 
