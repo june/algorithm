@@ -34,7 +34,7 @@ class Solution:
 ```
 So basically, we need a queue and `visited` array to keep tracking steps. (steps? I don't know.. 'The procedure' maybe)
 
-After that I set a dx,dy index.
+After that, I set a dx, dy index.
 
 In the while loop, we traverse the indices of 4 directions of current index.
 
@@ -42,11 +42,11 @@ Here is an important thing.
 
 We need to check the `valid range` of indices. For example, index of (-1,1) is not valid.
 
-Both `current_x + dx`and `current_y + dy` should be 0<= `BOTH` < m or n.
+Both `current_x + dx` and `current_y + dy` should be 0<= `BOTH` < m or n.
 
-And `current_x + dx`and `current_y + dy` should not be in `visited` list.
+And `current_x + dx` and `current_y + dy` should not be in `visited` list.
 
-Finally `current_x + dx`and `current_y + dy` should be same color of the `initial` one which is `image[sr][sc]`.
+Finally `current_x + dx` and `current_y + dy` should be same color of the `initial` one which is `image[sr][sc]`.
 
 ```
 Complexity Analysis (same as dfs)

@@ -1,0 +1,3 @@
+# 617. Merge Two Binary Trees
+
+I hate BFS and DFS...
