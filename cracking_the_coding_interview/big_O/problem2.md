@@ -7,6 +7,6 @@ def PairPrints(array):
       print('{}, {}'.format(array[i],array[j]))
 ```
 
-The inner `for loop` has O(N) iterations and it is called N times. Therefore, the runtime is `O(N<sup>2</sup>)`.
+The inner `for loop` has O(N) iterations and it is called N times. Therefore, the runtime is O(N<sup>2</sup>).
 
 Another way we can see this is by inspecting what the `meaning` of the code is. It is printing all pairs (two element sequences). There are `O(N<sup>2</sup>)` pairs; therefore, the runtimes is `O(N<sup>2</sup>)`
