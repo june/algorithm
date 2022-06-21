@@ -6,7 +6,7 @@ def foo(array):
   for i in range(len(array)):
     sum += array[i]
   for i in range(len(array)):
-    product += array[i]
+    product *= array[i]
   print('The sum of array elements is: {}, and the product of array elements is: {}'.format(sum,product))
 ```
 
