@@ -1,16 +1,13 @@
 # What is the runtime of the below code?
 ```
-void foo(int[] array) {
-  int sum = 0;
-  int product = 1;
-  for (inti= 0; i < array.length; i++) {
-    sum =+ array[i);
-  }
-  for (int i= 0; i < array.length; i++) {
-    product*= array[i];
-  }
-  System.out.println(sum + ", " + product);
-}
+def foo(array):
+  sum = 0
+  product = 1
+  for i in range(len(array)):
+    sum += array[i]
+  for i in range(len(array)):
+    product += array[i]
+  print('The sum of array elements is: {}, and the product of array elements is: {}'.format(sum,product))
 ```
 
 This will take `O(N)` time.
